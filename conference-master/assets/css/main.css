@@ -443,6 +443,7 @@ ul li {
   text-align: center;
   padding: 50px 0;
   margin: 25px 0 0;
+  pointer-events: none;
 }
 .schedule-box::before {
   content: '';
@@ -452,6 +453,10 @@ ul li {
   bottom: 5px;
   left: 5px;
   border: 1px solid #fff;
+}
+.schedule-box > * {
+  pointer-events:auto;
+  margin: 0;
 }
 
 /* 
